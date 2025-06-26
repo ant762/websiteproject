@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #0a0014, #1b001b);
+    color: white;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #18001e;
+    padding: 20px;
+    border-bottom: 3px solid #8800ff;
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    z-index: 1;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  header button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #8800ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  header button:hover {
+    background-color: #a844ff;
+  }
+  
+  header img {
+    height: 120px;
+    width: 200px;
+    align-items: center;
+  }
+  
+  #iniciodestaque {
+    background: linear-gradient(to bottom, #280033, #0f0017);
+  }
+  
+  #iniciodestaque h2 {
+    padding-top: 400px;
+    font-size: 8.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  #iniciodestaque h3 {
+    font-size: 1rem;
+    padding-top: 50px;
+    font-size: 2.5rem;
+    padding-bottom: 300px;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  #iniciodestaque img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 3px solid #8800ff;
+    border-top: 3px solid #8800ff;
+
+  }
+  
+  #destaques {
+    padding: 40px 10px;
+    background-color: #15001b;
+  }
+  
+  #destaques figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  #destaques img {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #660099;
+    transition: .5s ease;
+    z-index: 0;
+
+  }
+
+  #destaques img:hover {
+    transform: scale(1.2)
+  }
+  
+  #destaques button {
+    background-color: #9900ff;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #destaques button:hover {
+    background-color: #bb55ff;
+  }
+  
+  #cadastro {
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #290038, #14001b);
+    border-top: 3px solid #8800ff;
+    border-bottom: 3px solid #8800ff;
+  }
+  
+  #cadastro h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #00ff00;
+  }
+  
+  #cadastro h3, #cadastro h4 {
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  form {
+    background-color: #1c0023;
+    padding: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    box-shadow: 0 0 20px #7a00ff;
+  }
+  
+  form label {
+    color: #ccc;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="date"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #320046;
+    color: white;
+  }
+
+  .terms-btn:hover {
+    background-color: #bb55ff38;
+    border-radius: 4px;
+    transition: .5s ease;
+  }
+
+  #cadastro button {
+    background-color: #9900ff;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  
+#cadastro button:hover {
+  background-color: #bb55ff;
+}
+
+  .terms-btn {
+    display: inline-block;
+    color: white;
+  }
+
+  
+  form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  form button {
+    background-color: #00ff00;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #66ff66;
+  }
+  
+  #cadastro button {
+    margin-top: 15px;
+  }
+  
+  footer {
+    background-color: #0d0011;
+    padding: 30px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  footer button {
+    background-color: #ff00ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  footer button:hover {
+    background-color: #ff66ff;
+  }
+  
