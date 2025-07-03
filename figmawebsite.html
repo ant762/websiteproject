@@ -4,25 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FRIV</title>
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="figmawebsitecss.css" />
 </head>
+<!--é interessante ressaltar que graças a minha incrível e maravilhosa habilidade em """"""""programar"""""""", a minha estrutura do html foi horrível e péssima, e
+logo depois de adicionar o bootstrap, o código estava tão desorganizado que tudo ficou desalinhado no css. Então por isso eu tive que reestruturar essa bagaça inteira
+e olha, sinceramente, era tanta coisa que foi muito mais fácil utilizar VIOLENTAMENTE da inteligência artifícial para melhorar a estrutura do meu """"código""""-->
 <body>
 
     <header>
         <a href="#cadastro">
             <button>Cadastro</button>
-          </a>
+        </a>
         <img src="Friv_2018.webp" alt="logofriv" height="150" width="300"/>
     </header>
+
     <script>
         console.log("teste JS live server!")
     </script>
+
     <main>
         <section id="iniciodestaque">
             <h2>Mais do que um jogo, uma revolução no entretenimento</h2>
             <h3>CONSTRUINDO MEMÓRIAS DE 99% DA POPULAÇÃO BRASILEIRA DESDE 2008</h3>
             <figure>
-                <img src="trees.png" alt="arvres" width="500" height="250">
+                <img src="trees.png" alt="arvores" width="500" height="250">
             </figure>
         </section>
 
@@ -48,9 +55,7 @@
         </section>
 
         <section id="cadastro">
-            <h3>Desde 2006, somos a referência em diversão online.
-                Em 2030, dominamos o mercado e criamos o FrivXperience™.
-                Não jogue, viva o futuro com a gente.</h3>
+            <h3>Desde 2006, somos a referência em diversão online. Em 2030, dominamos o mercado e criamos o FrivXperience™. Não jogue, viva o futuro com a gente.</h3>
             <h2>FrivXperience™</h2>
             <h4>Cadastre-se Hoje!</h4>
 
@@ -84,13 +89,69 @@
         </section>
 
     </main>
+    <!-- Footer com Bootstrap. Adicionei o bootstrap só aqui, acho que já é o suficiente.-->
+    <footer class="bg-dark text-white pt-5 p pb-3 w-100">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 mb-4">
+              <h5 class="text-uppercase">Sobre o Friv</h5>
+              <p>A Friv é mais do que um site de jogos. Estamos criando uma nova forma de entretenimento com jogos
+                inovadores e experiências imersivas. Nossa missão é transformar a maneira como você joga e se diverte
+                online.</p>
+            </div>
+    
+            <div class="col-md-3 mb-4">
+              <h5 class="text-uppercase">Categorias</h5>
+              <ul class="list-unstyled">
+                <li><a href="#" class="footer-link">Ação</a></li>
+                <li><a href="#" class="footer-link">Aventura</a></li>
+                <li><a href="#" class="footer-link">Esportes</a></li>
+                <li><a href="#" class="footer-link">RPG</a></li>
+                <li><a href="#" class="footer-link">Simulação</a></li>
+                <li><a href="#" class="footer-link">Estratégia</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-md-3 mb-4">
+              <h5 class="text-uppercase">Contato e suporte técnico</h5>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-envelope-fill"></i> <a href="mailto:lixeira@friv.com"
+                    class="footer-link">lixeira@friv.com</a></li>
+                <li><i class="bi bi-telephone-fill"></i> <a href="tel:+1234567890" class="footer-link">+1 234 567 890</a>
+                </li>
+                <li><i class="bi bi-house-door-fill"></i> Av. Beira Rio 123, Salgadinho, PE</li>
+              </ul>
+            </div>
+    
+            <div class="col-md-3 mb-4">
+              <h5 class="text-uppercase">Siga-nos</h5>
+              <div>
+                <a href="#" class="footer-link me-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="footer-link me-3"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="footer-link me-3"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="footer-link me-3"><i class="bi bi-youtube"></i></a>
+                <a href="#" class="footer-link me-3"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <hr class="my-4" style="border-color: #6c757d;">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p>© 2025 Friv Corporation. Todos os jogos são nossos. Literalmente. FrivXperience™ | A plataforma definitiva
+                de jogos. 🌍 Servindo 195 países, Incluindo a Coreia do Norte.</p>
+              <button id="tosbutton" class="btn btn-pink" onclick="window.location.href='tosfigma.html'">Termos de Serviço</button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+    <!-- bootstrap pra icone (para ícones como Facebook, Instagram, etc.) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    
 
-    <footer>
-        <p>© 2025 Friv Corporation. Todos os jogos são nossos. Literalmente.
-            FrivXperience™ | A plataforma definitiva de jogos.
-            🌍 Servindo 195 países, Incluindo a Coreia do Norte.</p>
-            <button onclick="window.location.href='tosfigma.html'">Termos de Serviço</button>
-    </footer>
+    <!-- importe do troço lá -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 
 </body>
 </html>

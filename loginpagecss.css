@@ -1,22 +1,44 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html, body {
-    height: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(to bottom, #180022, #0a0014);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #0a0014, #1b001b);
+  color: white;
+  text-align: center;
+}
+
+.main-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-logo {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.login-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login {
+  background-color: rgba(40, 0, 60, 0.7);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #a000ff;
+  width: 100%;
+  max-width: 400px;
+}
+
   img {
     margin-bottom: 20px;
     filter: drop-shadow(0 0 10px #a000ff);
@@ -57,33 +79,97 @@
     cursor: pointer;
     font-weight: bold;
     font-size: 1rem;
-    transition: background 0.3s ease;
+    transition: color 0.5s ease;
   }
   
   button[type="submit"]:hover {
-    background: linear-gradient(90deg, #b300ff, #e100ff);
+    color: #ff66ff;
+  }
+  
+  .linha-roxa {
+    height: 4px;
+    width: 100%;
+    background: linear-gradient(to right, #9900ff, #c000ff);
   }
   
   footer {
-    margin-top: 40px;
-    max-width: 600px;
-    font-size: 0.9rem;
-    color: #ccc;
+    background-color: #0d0011;
+    padding: 30px;
+    font-size: 1rem;
+    color: #bbb;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+  footer h5 {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #fff;
   }
-  
+
+  footer p {
+      font-size: 0.9rem;
+      color: #ddd;
+  }
+
+  footer .footer-link {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+  }
+
+  footer .footer-link:hover {
+      color: #ff66ff;
+  }
+
+  footer .bi {
+      font-size: 1.2rem;
+      color: #ccc;
+  }
+
+  footer .bi:hover {
+      color: #ff66ff;
+  }
+
   footer button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background: linear-gradient(90deg, #9900ff, #c000ff);
+      background-color: #ff00ff;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      margin-top: 20px;
+      cursor: pointer;
+      font-size: 1rem;
+  }
+
+  footer button:hover {
+      background-color: #ff66ff;
+  }
+
+  footer .row {
+      margin-bottom: 20px;
+  }
+
+  footer hr {
+      border-color: #6c757d;
+      opacity: 0.5;
+      margin-top: 40px;
+  }
+
+  #tosbutton {
+    display: block;
+    margin: 30px auto;
+    background-color: #642591;
     color: white;
+    padding: 12px 25px;
+    font-size: 16px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    font-weight: bold;
-    font-size: 0.9rem;
+    transition: all .5s ease-in-out;
   }
-  
-  footer button:hover {
-    background: linear-gradient(90deg, #b300ff, #e100ff);
+
+  #tosbutton:hover {
+    background-color: #ff00ff;
   }
-  
